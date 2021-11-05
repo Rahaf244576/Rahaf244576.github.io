@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>sheet jquery</title>
+<script
+src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js">
+</script>
+<script>
+$(document).ready(function(){
+$("#dark").click(function(){
+$("body").css("background-color","black");
+$("body").css("color","white");
+});
+$("#light").click(function(){
+$("body").css("background-color","white");
+$("body").css("color","black");
+});
+});
+</script>
+</head>
+<body>
+<input id="light" type="button" value="Light Mode">
+<input id="dark" type="button" value="Dark Mode">
+<h1>jQuery
+</h1>
+<p>
+    What is jQuery?
+    jQuery is a fast, small, and feature-rich JavaScript library.
+     It makes things like HTML document traversal and manipulation, event handling,
+      animation, and Ajax much simpler with an easy-to-use API that works across 
+      a multitude of browsers. With a combination of versatility and extensibility, 
+      jQuery has changed the way that millions of people write JavaScript
+</p>
+</body>
+</html>
